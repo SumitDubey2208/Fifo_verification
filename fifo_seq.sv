@@ -12,6 +12,7 @@ class fifo_seq extends uvm_sequence #(fifo_txn);
             tx.randomize();
             start_item(tx);
             finish_item(tx);
+            
         end
     endtask
 endclass
